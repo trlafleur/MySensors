@@ -143,7 +143,7 @@
  * @def MY_REGISTRATION_FEATURE
  * @brief If enabled, node has to register to gateway/controller before allowed to send sensor data.
  */
-#define MY_REGISTRATION_FEATURE
+//#define MY_REGISTRATION_FEATURE		// <-----------TRL
 
 /**
 * @def MY_REGISTRATION_RETRIES
@@ -170,7 +170,7 @@
 * @def MY_CORE_COMPATIBILITY_CHECK
 * @brief If enabled, library compatibility is checked during node registration. Incompatible libraries are unable to send sensor data.
 */
-#define MY_CORE_COMPATIBILITY_CHECK
+//#define MY_CORE_COMPATIBILITY_CHECK		// <-----------TRL
 
 /**
 * @def MY_TRANSPORT_WAIT_READY_MS
@@ -694,7 +694,7 @@
  * This must match the hardware version of the RFM95 radio.
  */
 #ifndef MY_RFM95_FREQUENCY
-#define MY_RFM95_FREQUENCY   (868.1f)
+#define MY_RFM95_FREQUENCY   (928.5f)		// <-----------TRL
 #endif
 /**
 * @def MY_RFM95_MODEM_CONFIGRUATION
