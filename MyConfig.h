@@ -131,7 +131,7 @@
  *@def MY_TRANSPORT_UPLINK_CHECK_DISABLED
  *@brief If set, uplink check to GW is disabled during transport initialisation
  */
-//#define MY_TRANSPORT_UPLINK_CHECK_DISABLED
+#define MY_TRANSPORT_UPLINK_CHECK_DISABLED
 
 /**
  *@def MY_TRANSPORT_MAX_TX_FAILURES
@@ -158,7 +158,7 @@
 * @def MY_REGISTRATION_DEFAULT
 * @brief Node registration default - this applies if no registration response is received from controller
 */
-#define MY_REGISTRATION_DEFAULT true
+#define MY_REGISTRATION_DEFAULT false		// <-----------TRL
 
 /**
 * @def MY_REGISTRATION_CONTROLLER
